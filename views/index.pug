@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h2= title
+  <div>
+  <img src=#{image} />  
+  h4= name
+  <p>
+  | <strong>Visto por último em: </strong>#{location}<br><br>
+  | <strong>Gênero: </strong>#{gender}<br><br>
+  | <strong>Aparições na 1º temporada: </strong><br><br>
+  | <strong>Aparições na 2º temporada: </strong><br><br>
+  | <strong>Aparições na 3º temporada: </strong><br><br>
+  | <strong>Aparições no total: </strong>#{episode}<br><br>
+  | <strong>Status: </strong>#{status}<br>
+  </p>
+  </div>
